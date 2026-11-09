@@ -26,8 +26,8 @@ Lo que encontramos, usando solo su código público y las tiradas que su propia 
 **A. Con Node.js 18 o más nuevo** (no instala nada):
 
 ```bash
-git clone <este repositorio>
-cd Auditoria-DiceBlox
+git clone https://github.com/Bronstor/auditoria-dice-blox.git
+cd auditoria-dice-blox
 node herramientas/verificar.mjs
 ```
 
