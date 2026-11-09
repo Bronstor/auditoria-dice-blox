@@ -71,7 +71,15 @@ La firma se comprueba con la llave pública que ellos mismos publican en su pág
 
 ### 2.3 Lo que pasó en 146 tiradas reales
 
-Tiradas de 5 salas, tomadas del 5 al 9 de noviembre de 2026. Los códigos de sala se cambiaron por letras para no señalar a nadie.
+Tiradas de 5 salas, tomadas del 5 al 9 de noviembre de 2026. En los datos cada sala tiene una letra:
+
+| Letra | ID de la sala |
+|---|---|
+| A | `C820T1upde` |
+| B | `8WOlmSVFQh` |
+| C | `G26vmCTa62` |
+| D | `jSy7VIIZl7` |
+| P | `9U0H1ud36Q` (nuestra prueba) |
 
 | Sala | Tiradas | Qué truco llevaban |
 |---|---|---|
@@ -90,14 +98,40 @@ Tiradas de 5 salas, tomadas del 5 al 9 de noviembre de 2026. Los códigos de sal
 | Colores castigados por el perfil streamer (4 dados) | Salieron **7 de 75 veces (9 %)** | Debería ser cerca del 52 % |
 | Tiradas de 4 dados con «un par + dos sueltos» | **53 de 60 (88 %)** | Debería ser cerca del 56 % |
 
-### 2.4 Desde el 8 de noviembre esconden el truco
+### 2.4 Capturas del script, sala por sala
+
+Son las 20 últimas tiradas que su API mostraba el 9 de noviembre de 2026 para cada sala. Cualquiera puede repetirlo con el script de la sección 4.
+
+**C820T1upde: 19 de 19 con un color bloqueado al 100 %**
+
+![Sala C820T1upde](./capturas/sala-C820T1upde.png)
+
+**9U0H1ud36Q: 17 de 20 con un color forzado al 100 % (nuestra prueba, sección 3)**
+
+![Sala 9U0H1ud36Q](./capturas/sala-9U0H1ud36Q.png)
+
+**G26vmCTa62: 14 de 20 con un color bloqueado al 100 %**
+
+![Sala G26vmCTa62](./capturas/sala-G26vmCTa62.png)
+
+**8WOlmSVFQh: 1 de 20 con un color forzado.** Sus tiradas anteriores, con más trucos, ya no aparecen en la API, pero están en los datos de esta auditoría.
+
+![Sala 8WOlmSVFQh](./capturas/sala-8WOlmSVFQh.png)
+
+**Para comparar, LBhy4B1JLB: ningún color forzado ni bloqueado.** Así se ve una sala sin esos trucos. Sus 20 tiradas igual llevan el perfil streamer, que también cambia los dados.
+
+![Sala LBhy4B1JLB](./capturas/sala-LBhy4B1JLB.png)
+
+> **Importante:** que una sala tenga tiradas con truco **no significa que el dueño de la sala lo haya puesto.** La sala 9U0H1ud36Q era de una persona que no activó nada, y aun así salió con colores forzados.
+
+### 2.5 Desde el 8 de noviembre esconden el truco
 
 - Hasta el 8 de noviembre, su API mostraba el `bias` de cada tirada. Guardamos 59 tiradas así.
 - Ese día, entre las 18:10 y las 22:18 (hora UTC), **lo quitaron de la API**. Pero lo siguen firmando.
 - Su propia página de verificación comprueba el sello sin el `bias`, no le cuadra y **marca todas esas tiradas como «❌ seal INVALID»**.
 - Esa misma página dice que una tirada alterada «aparece como inválida».
 
-### 2.5 La página trae los textos del panel de trucos
+### 2.6 La página trae los textos del panel de trucos
 
 Cualquiera puede verlos: entra a `view-source:https://dice-blox.com/es`, presiona `Ctrl + F` y busca **«Bloqueo total»**. Algunos de esos textos, copiados tal cual:
 
@@ -191,4 +225,5 @@ Un ejemplo real que su API mostraba el 7 de noviembre (sala A). `excludeWhitelis
 | [`datos/estadisticas.json`](./datos/estadisticas.json) | Conteos por sala y totales |
 | [`herramientas/verificar.mjs`](./herramientas/verificar.mjs) | Comprueba los 146 sellos con su llave pública |
 | [`herramientas/script-consola.js`](./herramientas/script-consola.js) | Lo mismo, desde el navegador, para cualquier sala |
+| [`capturas/`](./capturas/) | Resultado del script para 5 salas, en imágenes |
 | [`SHA256SUMS.txt`](./SHA256SUMS.txt) | Hash de cada archivo de su página que se revisó |
