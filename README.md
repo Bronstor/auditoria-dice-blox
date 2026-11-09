@@ -1,8 +1,8 @@
 # Auditoría de dice-blox.com
 
-**Fecha:** 9 de noviembre de 2026
-**Qué se revisó:** el código que la página entrega a cualquier visitante, sus textos y 146 tiradas reales sacadas de su propia API pública.
-**Qué no se hizo:** no se usó ninguna cuenta ni se entró a zonas privadas.
+- **Fecha:** 9 de noviembre de 2026
+- **Qué se revisó:** el código que la página entrega a cualquier visitante, sus textos y 146 tiradas reales sacadas de su propia API pública.
+- **Qué no se hizo:** no se usó ninguna cuenta ni se entró a zonas privadas.
 
 ---
 
