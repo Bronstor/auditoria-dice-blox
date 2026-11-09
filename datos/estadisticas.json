@@ -1,0 +1,70 @@
+{
+ "total": 146,
+ "porSala": {
+  "A": {
+   "tiradas": 19,
+   "desde": "2026-11-07T07:04:09.254Z",
+   "hasta": "2026-11-07T09:46:46.634Z",
+   "biasVisibleEnApi": 19,
+   "color bloqueado": 19
+  },
+  "B": {
+   "tiradas": 60,
+   "desde": "2026-11-08T16:10:53.435Z",
+   "hasta": "2026-11-08T18:49:32.196Z",
+   "biasVisibleEnApi": 40,
+   "solo perfil streamer": 52,
+   "sin bias": 1,
+   "color bloqueado": 3,
+   "color forzado": 4
+  },
+  "C": {
+   "tiradas": 21,
+   "desde": "2026-11-05T00:52:57.781Z",
+   "hasta": "2026-11-09T07:33:43.723Z",
+   "biasVisibleEnApi": 0,
+   "color bloqueado": 16,
+   "no recuperado": 1,
+   "solo perfil streamer": 4
+  },
+  "D": {
+   "tiradas": 26,
+   "desde": "2026-11-09T06:19:29.472Z",
+   "hasta": "2026-11-09T06:47:40.350Z",
+   "biasVisibleEnApi": 0,
+   "solo perfil streamer": 26
+  },
+  "P (prueba controlada)": {
+   "tiradas": 20,
+   "desde": "2026-11-08T21:17:52.029Z",
+   "hasta": "2026-11-09T01:41:53.643Z",
+   "biasVisibleEnApi": 0,
+   "solo perfil streamer": 3,
+   "color forzado": 17
+  }
+ },
+ "forzado": {
+  "tiradas": 21,
+  "salioElColor": 21
+ },
+ "bloqueado": {
+  "tiradas": 38,
+  "noSalioElColor": 38
+ },
+ "perfilStreamer4Dados": {
+  "coloresCastigados": {
+   "posibles": 75,
+   "salieron": 7
+  },
+  "otrosColores": {
+   "posibles": 285,
+   "salieron": 174
+  },
+  "formas": {
+   "22": 2,
+   "31": 1,
+   "211": 53,
+   "1111": 4
+  }
+ }
+}

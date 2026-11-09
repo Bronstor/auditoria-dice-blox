@@ -1,0 +1,28 @@
+﻿# SHA-256 de los archivos de https://dice-blox.com descargados el 2026-11-09 hacia las 07:41 UTC
+# Los JS se pueden volver a descargar de la misma URL y comparar el hash (mientras no los cambien).
+
+3bcc8102b02c9480649643de85d0aec2255728e386c812b645a1d6d798ae775f  https://dice-blox.com/_next/static/chunks/011mwum6do4jh.js  (194770 bytes)
+aee2d073d2a1157cfe5c98907f90b3967de4c3625f9ffb154bd1979ae2b917b0  https://dice-blox.com/_next/static/chunks/05-c3ty_6dwfk.js  (3377 bytes)
+0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683  https://dice-blox.com/_next/static/chunks/0cz1d0mv5g_q7.js  (112594 bytes)
+920d03c3d87c3dae6a2519d36b5349b39dfae9735feae4a5c0c47d394f1a7564  https://dice-blox.com/_next/static/chunks/0nzi1xlrt19d3.js  (48661 bytes)
+a3ac200f3ab8bfa57cf78882057741ddb5c0fbc9e2490c5d951c099b37484206  https://dice-blox.com/_next/static/chunks/14mrh2-p_w84d.js  (54646 bytes)
+ff664995e84707cdd256ec44ddf8b53b08a969449c7128707404f914c3b33511  https://dice-blox.com/_next/static/chunks/1upe53-127sm4.js  (227315 bytes)
+6a1c40b945dec84ae383633782ecb3ebe579ec75a9f43b3850fcdc3e2a8164b5  https://dice-blox.com/_next/static/chunks/1uzjtdv4biya5.js  (36190 bytes)
+8a69918e6445bb063d3b68e79e77aa1640c5e5b4233296613732b7d10c9af8d9  https://dice-blox.com/_next/static/chunks/2dl7i911b11hk.js  (19880 bytes)
+300cfe7d26189ea0db8825cea8bde23dc87738d5f47c499c61c934bccad8b880  https://dice-blox.com/_next/static/chunks/2h305ttjfc2cy.js  (44161 bytes)
+284fc9f648762ef889464e9ea9dba57b13fdb9b31425b8231f756d189d2c958d  https://dice-blox.com/_next/static/chunks/2szy8ir_6niq8.js  (23985 bytes)
+a9301fcf10cfc17498510c50f678caefd00fb510fbb8d55755c77c067c7b2f75  https://dice-blox.com/_next/static/chunks/36e1gniza2wdf.js  (9020 bytes)
+2facf2cb7c531bc59e823802d9a86e0e7fa5c9699c3b78d574d5084f1c09e6a8  https://dice-blox.com/_next/static/chunks/3ec9vgoic3dyn.js  (17837 bytes)
+0682b6550067b199a91446d8fd32a697bee1a7419b29034c33d6b6758ff349a1  https://dice-blox.com/_next/static/chunks/3q1pvf2t779la.js  (49552 bytes)
+62ce7ea59e876f52290f4dc311d683dc678cebe08c6318b5a24450d6632e178e  https://dice-blox.com/_next/static/chunks/3uw4qvd2q4kqf.js  (23015 bytes)
+6dcb01a6ad7f620cf5daad487ae925458e483e1c6757d223651f9416770bb903  https://dice-blox.com/_next/static/chunks/turbopack-41jhsrhynyt4j.js  (10547 bytes)
+
+# Páginas HTML (cambian con cada visita por datos en vivo; el hash solo identifica nuestra copia)
+100b41c93d4fa9e0e491d7f295e7f0cd7c68614a4be47a82e9ffcbbc4f1e886a  https://dice-blox.com/en  (71381 bytes)
+69076b9335e4c9379f2e6e01c58a5a3aec3403218e20a33c12542bb2c0747b55  https://dice-blox.com/en/verify/<sala P>  (46865 bytes)
+19b9b51f6d6e6e18f2e687313f2fbd3ec42befc30d8899a65902f8ee47b1b6c9  https://dice-blox.com/es  (74374 bytes)
+4ec30b0f0f87eeeb4a96fd496ef373c54f660a58836b86d678c792f347be4bae  https://dice-blox.com/es/chances  (53344 bytes)
+b8967dbd5e980338348b22e2781100368a903796682a53115cced273f8b06e8a  https://dice-blox.com/es/coinflip  (52717 bytes)
+b08c2894114e18c1529f484598393c891d14bac6a414817f786c310b0c5b2cdf  https://dice-blox.com/es/color-gun  (64507 bytes)
+1bc8071d7d380044fbf2b1452dc92f9c6faeebde5b887fa8ceae91b8896b6042  https://dice-blox.com/es/scammers  (52003 bytes)
+37e4c2f43df5f2d280c8e679f81d3b22b8a1f606d9e3db4338a2d68d89edec2f  https://dice-blox.com/es/verify  (49285 bytes)
